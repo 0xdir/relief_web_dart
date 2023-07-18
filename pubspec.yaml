@@ -1,6 +1,6 @@
 name: relief_web
-description: A Future-based wrapper around the [Relief Web] API, to retrieve information on humanitarian news, reports, training, jobs, and disasters
-version: 1.0.0
+description: A Future-based wrapper around the Relief Web API, to retrieve information on humanitarian news, reports, training, jobs, and disasters
+version: 1.0.1
 repository: https://github.com/0xdir/relief_web_dart
 
 funding:

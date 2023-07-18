@@ -5,7 +5,7 @@ void main() async {
   ReliefWeb reliefWeb = ReliefWeb();
 
   /// Get reports
-  await reliefWeb.getReports().then((value) => print(value));
+  await reliefWeb.getReports().then((reports) => print(reports));
 
   /// Close the connection
   reliefWeb.close();

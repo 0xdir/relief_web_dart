@@ -38,6 +38,7 @@ class ReliefWeb {
 
   /// Get a specific report by reportId
   Future<List<dynamic>> getReportById({
+    /// A specific report id
     required String reportId,
   }) async {
     return await getReportByIdV1(
@@ -67,6 +68,7 @@ class ReliefWeb {
 
   /// Get a specific report by reportId
   Future<List<dynamic>> getJobById({
+    /// A specific job id
     required String jobId,
   }) async {
     return await getJobByIdV1(
@@ -96,6 +98,7 @@ class ReliefWeb {
 
   /// Get a specific learning opportunity
   Future<List<dynamic>> getTrainingById({
+    /// A specific training id
     required String trainingId,
   }) async {
     return await getTrainingByIdV1(
@@ -125,6 +128,7 @@ class ReliefWeb {
 
   /// Get a specific country by id
   Future<List<dynamic>> getCountryById({
+    /// A specific country id
     required String countryId,
   }) async {
     return await getCountryByIdV1(
@@ -154,6 +158,7 @@ class ReliefWeb {
 
   /// Get a specific disaster by id
   Future<List<dynamic>> getDisasterById({
+    /// A specific disaster id
     required String disasterId,
   }) async {
     return await getDisasterByIdV1(
@@ -183,6 +188,7 @@ class ReliefWeb {
 
   /// Get a specific source by id
   Future<List<dynamic>> getSourceById({
+    /// A specific source id
     required String sourceId,
   }) async {
     return await getSourceByIdV1(
