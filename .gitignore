@@ -1,0 +1,23 @@
+# Files and directories created by pub:
+.dart_tool/
+build/
+pubspec.lock
+
+# API documentation directory created by dart doc:
+doc/api/
+
+# Files and directories created by other development environments.
+.env/
+
+# Files for code generation
+build.yaml
+swagger/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Mac
+.DS_Store
